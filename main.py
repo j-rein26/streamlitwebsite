@@ -5,6 +5,8 @@ st.set_page_config(layout="wide")
 
 col1, col2 = st.columns(2)
 
+c = st.container()
+
 with col1:
 	st.image("images/justin.jpg")
 
@@ -22,3 +24,10 @@ with col2:
 	to help your team. 
 	"""
 	st.info(content)
+
+content2 = """ 
+Below you can find some of the apps I have built using Python.
+Please feel free to contact me via the form below!
+"""
+
+st.write(content2)
